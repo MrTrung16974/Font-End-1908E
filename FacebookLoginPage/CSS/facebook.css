@@ -1,0 +1,250 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+div.container {
+	width: 980px;
+	margin: auto;
+}
+body {
+	font-family: Helvetica, Arial, sans-serif;
+	color: #1c1e21;
+	direction: ltr;
+	line-height: 1.34;
+	font-size: 15px;
+}
+.clear {
+	clear: both;
+}
+
+/* header */
+header.header {
+	width: 100%;
+	height: 84px;
+	border-bottom: 1px solid #133783;
+	background: linear-gradient(#4b66a0, #2b5998);
+	font-family: inherit;
+}
+header.header div.container div.logo {
+	width: 580px;
+	height: 84px;
+	float: left;
+}
+header.header div.container div.logo a {
+	text-decoration: none;
+}
+header.header div.container div.logo a h1 {
+    line-height: 100px;
+    width: 170px;
+    height: 84px;
+    font-size: 40px;
+    letter-spacing: -1px;
+    font-weight: bold;
+    color: #fcfcfc;
+    font-family: 'Open Sans', sans-serif;
+}
+header.header div.container nav.login {
+	padding-top: 13px;
+	width: 400px;
+	height:84px;
+	float: right;
+	font-size: 12px;
+}
+header.header div.container nav.login form.form-login label {
+	color: #fff;
+	font-family: SFProText-Medium, Helvetica, Arial, sans-serif;
+	
+}
+header.header div.container nav.login form.form-login label:first-of-type {
+	width: 161px;
+	display: inline-block;
+}
+header.header div.container nav.login form.form-login input {
+	width: 140px;
+	padding: 1px 3px 4px;
+	margin-right: 10px;
+	border: 1px solid #1d2a5b;
+	display: inline-block;
+}
+header.header div.container nav.login form.form-login a {
+	padding-left: 163px;
+	color: #9cb4d8;
+	text-decoration: none;
+	position: relative;
+    top: 7px;
+}
+header.header div.container nav.login form.form-login button[type="submit"] {
+	border: 1px solid #29487d;
+	background: #4267b2;
+	color: #fff;
+	padding: 2px 3px 4px;
+}
+header.header div.container nav.login form.form-login button[type="submit"]:hover {
+	background: #365899;
+}
+
+/* end header */
+
+
+
+/* start main */
+
+main.content {
+	width: 100%;
+	background: linear-gradient(white, #D3D8E8);
+	margin-bottom: 30px;
+}
+/* left content */
+main.content div.container aside.left-content {
+	width: 580px;
+	float: left;
+}
+
+main.content div.container aside.left-content div.slogan {
+	color: #0e385f;
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 29px;
+	margin-top: 40px;
+	width: 450px;
+	word-spacing: -1px;
+}
+
+
+/* right content */
+main.content div.container section.right-content {
+	width: 400px;
+	float: right;
+	line-height: 1.34;
+	margin-bottom: 20px;
+}
+main.content div.container section.right-content form.form-new-account div.title {
+	margin: 15px 0;
+	font-family: inherit;
+}
+main.content div.container section.right-content form.form-new-account div.title h1 {
+	font-size: 36px;
+}
+main.content div.container section.right-content form.form-new-account p {
+	color: #672129;
+}
+main.content div.container section.right-content form.form-new-account div.name {
+	width: 100%;
+}
+main.content div.container section.right-content form.form-new-account div.name input[name="frist-name"] {
+	width: 168px;
+}
+main.content div.container section.right-content form.form-new-account div.name input[name="last-name"] {
+	width: 168px;
+}
+main.content div.container section.right-content form.form-new-account input {
+	border-radius: 5px;
+	padding: 11px;
+	border: 1px solid #ccd0d5;
+	margin: 5px 0px;
+	font-size: 16px;
+	margin-right: 5px;
+}
+main.content div.container section.right-content form.form-new-account b {
+	color: #90949c;
+	font-size: 16px;
+	font-weight: bold;
+}
+main.content div.container section.right-content form.form-new-account input[type='email'] {
+	width: 370px;
+}
+
+main.content div.container section.right-content form.form-new-account input[type='password'] {
+	width: 370px;
+	margin-bottom: 20px;
+}
+main.content div.container section.right-content form.form-new-account div.form-new div.birthday {
+	margin-bottom: 10px;
+}
+main.content div.container section.right-content form.form-new-account div.form-new div.birthday select {
+	font-size: 13px;
+	height: 30px;
+	padding: 5px;
+	
+}
+main.content div.container section.right-content form.form-new-account div.form-new div.sex {
+	margin: 10px 0px;
+}
+main.content div.container section.right-content form.form-new-account div.form-new div.sex label {
+	font-size: 18px;
+	margin-right: 10px;
+}
+main.content div.container section.right-content form.form-new-account div.form-new p.info {
+	color: #777;
+	font-size: 11px;
+	width: 316px;
+}
+
+main.content div.container section.right-content form.form-new-account button[type='submit'] {
+	background: linear-gradient(#67ae55, #578843);
+	margin: 10px 0;
+	border-radius: 5px;
+	border: none;
+	min-width: 194px;
+	height: 40px;
+	color: #ffffff;
+	font-size: 19px;
+	font-family: inherit;
+	font-weight: bold;
+	border: 1px solid #3b6e22;
+	
+}
+main.content div.container section.right-content form.form-new-account button[type='submit']:hover {
+	background: linear-gradient(#79bc64, #578843);
+}
+main.content div.container section.right-content form.form-new-account p {
+	color: #666;
+	font-size: 13px;
+	font-weight: bold;
+	margin-top: 10px;
+	padding-top: 15px;
+}
+main.content div.container section.right-content form.form-new-account p >  a{
+	text-decoration: none;
+}
+main.content div.container section.right-content form.form-new-account p >  a:hover {
+	text-decoration: underline;
+} 
+
+
+/* end main */
+
+/* statr footer */
+footer.footer {
+	margin-bottom: 20px;
+}
+footer.footer div.container div.top ul:first-child {
+	border-bottom: 1px solid #dddfe2;
+	padding: 10px 0px;
+}
+footer.footer div.container ul {
+	margin: 10px 0px;
+}
+footer.footer div.container ul > li {
+	display: inline-block;
+	list-style: none;
+	padding-right: 10px;
+}
+footer.footer div.container ul > li a {
+	text-decoration: none;
+	font-family: inherit;
+	color: #385898;
+	font-size: 12px;
+}
+
+footer.footer div.container ul > li a:hover {
+	text-decoration: underline;
+	
+}
+footer.footer div.container div.top ul:first-child li:first-child a {
+	color: #737373;
+}
+footer.footer div.container p {
+	color: #737373;
+	font-size: 12px;
+}

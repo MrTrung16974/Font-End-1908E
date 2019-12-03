@@ -1,0 +1,380 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media all and  (max-width: 576px) { 
+	main.content div.container div.info-telegram div.row div.col-xl-12 div.Res-right-content {
+		position: static;
+	    width: 100%;
+	    margin: 0px 16px;
+	}
+	header.header div.container div.row div.col-xl-10 nav.menu li:nth-last-child(1){
+		opacity: 0;
+		visibility: hidden;
+	}
+	header.header div.container div.row div.col-xl-10 nav.menu li:nth-last-child(2) {
+		opacity: 0;
+		visibility: hidden;
+	}
+	main.content div.container div.telegram-PC div.row div.col-xl-12 > div.PC {
+		background: none;
+	}
+	main.content div.container div.telegram-PC div.row div.col-xl-12 div.PC div.link-PC > a:first-child{
+   		background: url(../img/Desktop1.jpg) center center no-repeat;
+	}
+	main.content div.container div.telegram-PC div.row div.col-xl-12 div.PC div.link-PC > a:last-child{
+   		opacity: 0;
+   		visibility: hidden;
+	}
+	main.content div.container div.telegram-phone div.row div.col-xl-4 div.phone a:hover {
+	    border-bottom: none;
+	}
+	main.content div.container div.telegram-PC div.row div.col-xl-12 div.PC div.link-PC > a:first-child:hover {
+		border-bottom: none;
+	}
+	main.content div.container div.info-telegram div.row div.col-xl-12 div.right-content div.list-content a > p {
+		font-size: 14px;
+	}
+	footer.footer div.container > div.row:first-child {
+		display: none;
+	}
+	footer.footer div.container > div.row:last-child {
+		opacity: 1;
+	   	visibility: visible;	
+	}
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media all and (min-width: 577px) and (max-width: 768px) { 
+	main.content div.container div.info-telegram div.row div.col-xl-12 div.Res-right-content {
+		position: static;
+	    width: 100%;
+	    margin: 0px 16px;
+	}
+	main.content div.container div.telegram-PC div.row div.col-xl-12 > div.PC {
+		background: none;
+	}
+	main.content div.container div.telegram-PC div.row div.col-xl-12 div.PC div.link-PC > a:first-child{
+   		background: url(../img/Desktop1.jpg) center center no-repeat;
+	}
+	main.content div.container div.telegram-PC div.row div.col-xl-12 div.PC div.link-PC > a:last-child{
+   		opacity: 0;
+   		visibility: hidden;
+	}
+	main.content div.container div.info-telegram div.row div.col-xl-12 div.right-content div.list-content a > p {
+		font-size: 14px;
+	}
+	footer.footer div.container > div.row:first-child {
+		display: none;	
+	}
+	footer.footer div.container > div.row:last-child {
+		opacity: 1;
+	   	visibility: visible;	
+	}
+	
+	
+}
+/* Large devices (desktops, 992px and up) */
+@media all and (min-width: 769px) and (max-width: 992px) {
+	main.content div.container div.info-telegram div.row div.col-xl-12 div.Res-right-content {
+		position: static;
+	    width: 100%;
+	    margin: 0px 16px;
+	}
+	main.content div.container div.info-telegram div.row div.col-xl-12 div.right-content div.list-content a > p {
+		font-size: 14px;
+	}
+	footer.footer div.container > div.row:last-child {
+		opacity: 0;
+	   	visibility: hidden;	
+	}
+	footer.footer div.container div.row div.col-xl-8 {
+		padding: 0 150px;
+	}
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media all and (min-width: 993px) and (max-width: 1200px) {
+	footer.footer div.container > div.row:last-child {
+		display: none;
+	}
+}
+@media all and (min-width: 1201px) {
+	footer.footer div.container > div.row:last-child {
+		display: none;
+	}
+}
+
+body {
+	font-family:"Lucida Grande", "Lucida Sans Unicode", Arial, Helvetica, Verdana, sans-serif;
+}
+/* start ./ header */
+header.header {
+	border-bottom: 1px solid #E8E8E8;
+	font-size: 15px;
+	height: 49px;
+	line-height: 49px;
+	margin-bottom: 30px;
+}
+header.header div.container div.row div.col-xl-10 nav.menu ul {
+	height: 48px;
+	line-height: 48px;
+	display: flex;
+}
+header.header div.container div.row div.col-xl-10 nav.menu li{
+	padding:  0px 15px;
+	list-style: none;
+}
+header.header div.container div.row div.col-xl-10 nav.menu li:hover{
+	border-bottom: 3px solid #179CDE;
+}
+header.header div.container div.row div.col-xl-10 nav.menu li.active {
+	border-bottom: 3px solid #179CDE;
+}
+header.header div.container div.row div.col-xl-10 nav.menu li a{
+	text-decoration: none;
+}
+/* logo */
+header.header div.container div.row div.col-xl-2 div.logo {
+	text-align: center;
+	padding: 0px 15px;
+	width: 110.5px;
+	float: right;
+}
+header.header div.container div.row div.col-xl-2 div.logo:hover{
+	border-bottom: 3px solid #179CDE;
+}
+header.header div.container div.row div.col-xl-2 div.logo a {
+	text-decoration: none;
+}
+header.header div.container div.row div.col-xl-2 div.logo a i {
+	width: 21px;
+    height: 17px;
+    vertical-align: text-top;
+    opacity: 0.9;
+    font-size: 20px;
+}
+/* end ./ header */
+
+/* start ./ main */
+
+/* start ./ info-telegram */
+main.content div.container div.info-telegram {
+	position: relative;
+	margin-bottom: 130px;
+}
+main.content div.container div.info-telegram div.col-xl-12 div.right-content {
+	width: 180px;
+	background: none;
+    padding: 5px 17px;
+    margin: 0 0 17px 26px;
+	position: absolute;
+    margin-top: 20px;
+    right: 130px;
+	z-index: 100;
+    border-left: 5px solid #179cde;
+}
+main.content div.container div.info-telegram div.row div.col-xl-12 div.right-content h5 {
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+main.content div.container div.info-telegram div.row div.col-xl-12 div.right-content div.list-content > a {
+	font-size: 12px;
+	margin-bottom: 5px;
+}
+main.content div.container div.info-telegram div.row div.col-xl-12 div.right-content div.list-content > a.title-list {
+    color: #000;
+    font-weight: bold;
+    margin: 0px;
+    font-size: 13px;
+}
+main.content div.container div.info-telegram div.row div.col-xl-12 div.right-content div.list-content > a.title-list:hover {
+	text-decoration: none;
+}
+main.content div.container div.info-telegram div.row div.col-xl-12 div.right-content div.list-content a > p {
+	margin-bottom: 15px;
+}
+main.content div.container div.info-telegram div.row div.col-xl-12 div.left-content {
+	width: 315px;
+	margin: 0 auto;
+	z-index: 50;
+	
+}
+main.content div.container div.info-telegram div.row div.col-xl-12 div.left-content a {
+	text-decoration: none;
+}
+main.content div.container div.info-telegram div.row div.col-xl-12 div.left-content a img.img-logo {
+	width: 128px;
+	height: 128px;
+	margin: 0 95px;
+}
+main.content div.container div.info-telegram div.row div.col-xl-12 div.left-content a img.img-title {
+	margin: 0 85.5px;
+	padding-top: 10px;
+}
+main.content div.container div.info-telegram div.row div.col-xl-12 div.left-content a p {
+	text-align: center;
+	padding-top: 10px;
+}
+main.content div.container div.info-telegram div.row div.col-xl-12 div.left-content a div.bg-logo {
+	width: 144px;
+    height: 36px;
+    margin: 18px auto 6px;
+}
+main.content div.container div.info-telegram div.row div.col-xl-12 div.left-content a p {
+	text-align: center;
+	color: #8c8c8c;
+	font-size: 20px;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Light", Helvetica, Arial , Verdana, sans-serif;
+    font-weight: 300;
+}
+
+/* end ./ info-telegram */
+
+/* start ./ telegram-phone */
+main.content div.container div.telegram-phone {
+	margin: 30px 0;
+	z-index: 100;
+}
+main.content div.container div.telegram-phone div.row div.col-xl-4 {
+	padding: 20px 0px;
+}
+main.content div.container div.telegram-phone div.row div.col-xl-4 div.phone {
+    text-align: center;
+    height: 300px;
+}
+main.content div.container div.telegram-phone div.row div.col-xl-4 div.phone a {
+    text-decoration: none;
+    display: block;
+    padding: 0 0 20px 0;
+}
+main.content div.container div.telegram-phone div.col-xl-4 div.phone a:hover {
+    border-bottom: 3px solid #179cde;
+}
+main.content div.container div.row div.col-xl-4 div.phone a i {
+	font-size: 25px;
+    padding: 2px 5px;
+}
+/* end ./ telegram-phone */
+
+/* start ./ telegram-PC*/
+main.content div.container div.telegram-PC {
+	margin-top: 50px;
+}
+main.content div.container div.telegram-PC div.row div.col-xl-12 > h3{
+	width: 100%;
+	color: #222222;
+	text-align: center;
+	padding: 10px 15px;
+}
+main.content div.container div.telegram-PC div div.col-xl-12 > div.PC {
+    width: 100%;
+    height: 300px;
+   	padding: 20px 0px 0px 0px;
+   	background: url(../img/Desktop.jpg) center center no-repeat;
+}
+main.content div.container div.telegram-PC div.row div.col-xl-12 div.PC > img{
+	width: 100%;
+}
+main.content div.container div.telegram-PC div.row div.col-xl-12 div.PC div.link-PC {
+	text-align: center;
+}
+main.content div.container div.telegram-PC div.row div.col-xl-12 div.PC div.link-PC > a{
+	display: inline-block;
+    padding: 0px 60px 0px;
+    text-decoration: none;
+    padding-top: 250px;
+}
+main.content div.container div.telegram-PC div.row div.col-xl-12 div.PC div.link-PC > a:hover {
+	border-bottom: 3px solid #179CDE;
+}
+
+/* end ./ telegram-PC*/
+
+/* start ./ list-content*/
+main.content div.container div.list-content div.row div.row > div.col-xl-4 {
+	margin: 20px 0px;
+	text-align: center;
+}
+main.content div.container div.list-content div.col-xl-4 > img {
+    width: 160px;
+    height: 160px;
+}
+main.content div.container div.list-content div.row div.row > div.col-xl-4 p,h3 {
+	margin: 0 20px;
+}
+main.content div.container div.list-content div.row div.row > div.col-xl-4 p {
+	font-size: 15px;	
+}
+main.content div.container div.list-content div.row div.row > div.col-xl-4 h3 {
+	color: #a19679;
+    margin: 15px 0 6px;
+    font-size: 26px;
+    font-weight: 400;
+    letter-spacing: -1px;
+}
+
+main.content div.container div.list-content div.row{
+	margin: 15px 0;
+}
+main.content div.container div.list-content div.col-xl-12 > h3 {
+	color: #222222;
+    font-size: 23px;
+    font-weight: 500;
+    padding-top: 20px;
+    text-align: center;
+    margin: 0px 0px 10px;
+}
+
+/* end ./ list-content*/
+
+/* end ./ main */
+
+/* start ./ footer */
+footer.footer div.container {
+	border-top: 1px solid #E8E8E8;
+	padding: 30px 0px;
+}
+footer.footer div.container div.row div.col-xl-4 {
+	width: 290px;
+    padding: 0px 50px;
+    color: #333;
+    font-size: 12px;
+}
+footer.footer div.container div.row div.col-xl-4 h5{
+	font-weight: bold;
+}
+footer.footer div.container div.row div.col-xl-8 div.row div.col-xl-3 div.footer-menu > a {
+	color: #333;
+	font-weight: bold;
+}
+footer.footer div.container div.row div.col-xl-8 div.row div.col-xl-3 div.footer-menu ul li{
+	list-style: none;
+	font-size: 14px;
+    line-height: 23px
+}
+/* footer phone ./ media */
+footer.footer div.row div.col-xl-12 > ul {
+	text-align: center;
+	height: 49px;
+	line-height: 49px;
+}
+footer.footer div.row div.col-xl-12 > ul li {
+	display: inline-block;
+	list-style-type: none;
+	text-transform: uppercase;
+	padding: 10px 12px;
+	font-size: 13px;
+}
+footer.footer div.row div.col-xl-12 > ul li a {
+	text-decoration: none;
+}
+
+
+/* and ./ footer */
