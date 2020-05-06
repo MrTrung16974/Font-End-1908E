@@ -8,15 +8,15 @@ class Header_top extends Component {
             <div className="header-top">
                 <div className="f-left">
                     <div className="language">
-                        <img src={Vietnamese} width="30" height="25" alt={"Vietnamese"}  />
+                        <img src={Vietnamese} width="25" height="20" alt={"Vietnamese"}  />
                         <span>Vietnamese</span>
                         <ul>
                             <li>
-                                <img src={Vietnamese} width="30" height="25" alt={"Vietnamese"}  />
+                                <img src={Vietnamese} width="25" height="20" alt={"Vietnamese"}  />
                                 <a href="#">Vietnamese</a>
                             </li>
                             <li>
-                                <img src={English} width="30" height="25" alt={"English"}  />
+                                <img src={English} width="25" height="20" alt={"English"}  />
                                 <a href="#">English</a>
                             </li>
                         </ul>
@@ -42,20 +42,10 @@ class Header_top extends Component {
                     <div className="Register">
                         <i class="fas fa-key"></i>
                         <span>Register</span>
-                        <ul>
-                            <li><a href="#">Đồng</a></li>
-                            <li><a href="#">USD</a></li>
-                            <li><a href="#">EUR</a></li>
-                        </ul>
                     </div>
                     <div className="Wishlist">
                         <i class="fas fa-heart"></i>
                         <span>Wishlist</span>
-                        <ul>
-                            <li><a href="#">Đồng</a></li>
-                            <li><a href="#">USD</a></li>
-                            <li><a href="#">EUR</a></li>
-                        </ul>
                     </div>
                 </div>
             </div>
