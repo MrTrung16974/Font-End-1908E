@@ -1,0 +1,140 @@
+/* start ./ * */
+
+*:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.effect-line {
+    position: absolute;
+    content: "";
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 1;
+    margin: 0px 15px;
+}
+
+.effect-line:before {
+    z-index: 1;
+    content: "";
+    position: absolute;
+    left: 10px;
+    right: 10px;
+    top: 10px;
+    bottom: 10px;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    transform: scale(0, 1);
+    -moz-transform: scale(0, 1);
+    -webkit-transform: scale(0, 1);
+    -ms-transform: scale(0, 1);
+    transition: all 0.4s ease-in-out 0s;
+    -moz-transition: all 0.4s ease-in-out 0s;
+    -webkit-transition: all 0.4s ease-in-out 0s;
+}
+.effect-line:after {
+    z-index: 1;
+    content: "";
+    position: absolute;
+    left: 10px;
+    right: 10px;
+    top: 10px;
+    bottom: 10px;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+    transform: scale(1, 0);
+    -moz-transform: scale(1, 0);
+    -webkit-transform: scale(1, 0);
+    -ms-transform: scale(0, 1);
+    transition: all 0.4s ease-in-out 0s;
+    -moz-transition: all 0.4s ease-in-out 0s;
+    -webkit-transition: all 0.4s ease-in-out 0s;
+}
+
+.effect-line:hover:before, .effect-line:hover:after {
+    transform: scale(1, 1);
+    -moz-transform: scale(1, 1);
+    -webkit-transform: scale(1, 1);
+    -ms-transform: scale(1, 1);
+}
+
+/* end ./ * */
+
+div.slide>a {
+    position: absolute;
+    top: 40%;
+    width: 60px;
+    height: 60px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+div.slide>a:hover{
+    background-color: #fff;
+    color: rgba(0, 0, 0, 0.6);
+}
+div.slide div.carousel.slide ol.carousel-indicators>li {
+    border-width: 2px;
+    background: transparent;
+    border-color: #a3a19e;
+    width: 15px !important;
+    height: 15px !important;
+    border-radius: 50%;
+    border: 2px solid #ca9696;
+}
+div.slide div.carousel.slide ol.carousel-indicators li.active {
+    border: 2px solid #f1e6e6;
+}
+div.slide div.carousel.slide>a>span {
+    background: none;
+}
+div.slide div.carousel.slide>a span>i{
+    font-size: 20px
+}
+div.slide div.carousel.slide div.carousel-item div.carousel-caption>h3 {
+    text-transform: capitalize;
+}
+div.slide div.carousel.slide div.carousel-item div.carousel-caption>h1 {
+    text-transform: uppercase;
+}
+div.slide div.carousel.slide div.carousel-item div.carousel-caption>h4 {
+    text-transform: uppercase;
+}
+div.slide div.carousel.slide div.carousel-item div.carousel-caption>h2 {
+    text-transform: uppercase;
+    position: relative;
+    padding: 20px 0px;
+    margin: 2rem 0px;
+}
+div.slide div.carousel.slide div.carousel-item div.carousel-caption>h3 {
+    padding: 20px 0px;
+    position: relative;
+}
+div.slide div.carousel.slide div.carousel-item div.carousel-caption>h3:before {
+    height: 2px;
+    width: 50px;
+    background-color: #fff;
+    content: "";
+    position: absolute;
+    left: 47%;
+    bottom: 0px;
+}
+div.slide div.carousel.slide div.carousel-item div.carousel-caption>h2:before {
+    height: 2px;
+    width: 100%;
+    background-color: #fff;
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+}
+div.slide div.carousel.slide div.carousel-item div.carousel-caption>h2:after {
+    height: 2px;
+    width: 100%;
+    background-color: #fff;
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0px;
+}
