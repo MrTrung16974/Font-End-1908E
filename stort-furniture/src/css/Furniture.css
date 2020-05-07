@@ -92,23 +92,25 @@ div.slide div.carousel.slide>a>span {
 div.slide div.carousel.slide>a span>i{
     font-size: 20px
 }
-div.slide div.carousel.slide div.carousel-item div.carousel-caption>h3 {
-    text-transform: capitalize;
-}
 div.slide div.carousel.slide div.carousel-item div.carousel-caption>h1 {
+    font:700 4rem/1 Raleway,Helvetica Neue, Helvetica, Arial, sans-serif;
+    padding-top: 20px;
+    margin-top: 2rem;
     text-transform: uppercase;
 }
 div.slide div.carousel.slide div.carousel-item div.carousel-caption>h4 {
     text-transform: uppercase;
 }
 div.slide div.carousel.slide div.carousel-item div.carousel-caption>h2 {
+    font:700 4rem/1 Raleway,Helvetica Neue, Helvetica, Arial, sans-serif;  
     text-transform: uppercase;
     position: relative;
-    padding: 20px 0px;
-    margin: 2rem 0px;
+    padding: 40px 0px;
+    margin: 2rem 0;
 }
 div.slide div.carousel.slide div.carousel-item div.carousel-caption>h3 {
-    padding: 20px 0px;
+    text-transform: capitalize;
+    padding: 30px 0px;
     position: relative;
 }
 div.slide div.carousel.slide div.carousel-item div.carousel-caption>h3:before {
@@ -137,4 +139,22 @@ div.slide div.carousel.slide div.carousel-item div.carousel-caption>h2:after {
     position: absolute;
     left: 0;
     top: 0px;
+}
+div.slide div.carousel.slide div.carousel-item div.carousel-caption a.button-link {
+    padding: 13px 15px;
+    border: 1px solid;
+    display: inline-block;
+    margin: 20px 10px 0px 0px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    -moz-transition: all 500ms ease;
+    -webkit-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+    -moz-backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    font-size: 15px;
+}
+div.slide div.carousel.slide div.carousel-item div.carousel-caption a.button-link:hover {
+    text-decoration: none;
 }
