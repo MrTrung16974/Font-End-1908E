@@ -5,6 +5,15 @@ import Footer from './components/footer.js'
 import Content from './components/main/content.js'
 import Slide from './components/main/slide.js';
 
+let Scroll_top = () => {
+	return(
+		<div className="scroll-top">
+			<i class="fas fa-chevron-up"></i>
+			<p>TOP</p>	
+		</div>
+	)
+}
+
 class Furniture extends Component {
   render() {
     return (
@@ -23,6 +32,14 @@ class Furniture extends Component {
 				{/* End Content */}
 			</main>
 			{/* End Main */}
+
+			{/* Start ./ footer */}
+			<Footer />
+			{/* End ./ footer */}
+
+			{/* Start ./ scroll top */}
+			<Scroll_top />
+			{/* End ./ scroll top */}
       </div>
     );
   }
